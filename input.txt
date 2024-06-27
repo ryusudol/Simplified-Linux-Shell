@@ -1,0 +1,58 @@
+./a
+ls
+awk '{ print $1 }' Makefile
+pwd
+cd ..
+pwd
+cd pa2
+pwd
+
+
+grep pa Makefile
+grep pa < Makefile
+grep pa < test.txt
+grep pa < t.txt
+
+
+head Makefile
+head -n 3 Makefile
+head test.txt
+head t.txt
+head < Makefile
+head -n 3 < Makefile
+head < test.txt
+head < t.txt
+pwd
+
+
+tail Makefile
+tail -n 3 Makefile
+tail test.txt
+tail t.txt
+tail < Makefile
+tail -n 3 < Makefile
+tail < test.txt
+tail < t.txt
+pwd
+
+
+cat Makefile
+cat test.txt
+cat t.txt
+cat < Makefile
+cat < test.txt
+cat < t.txt
+pwd
+
+
+grep pa2 < Makefile > result.txt
+cat result.txt
+
+ls | grep pa2
+ls -al /etc | less
+ls -al /etc | sort -r > ls_sorted.txt
+cat ls_sorted.txt
+pwd
+
+
+exit
